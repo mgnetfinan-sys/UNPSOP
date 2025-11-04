@@ -88,7 +88,7 @@ class CustomNavbar extends HTMLElement {
             <nav class="navbar">
                 <a href="index.html" class="logo">
                     <i data-feather="book-open"></i>
-                    HealthEd Connect
+                    Síndrome do ovário policístico
                 </a>
                 
                 <div class="nav-links">
