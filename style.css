@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --lilac-50: #f5f3ff;
+    --lilac-100: #ede9fe;
+    --lilac-200: #ddd6fe;
+    --lilac-300: #c4b5fd;
+    --lilac-400: #a78bfa;
+    --lilac-500: #8b5cf6;
+    --lilac-600: #7c3aed;
+    --lilac-700: #6d28d9;
+    --lilac-800: #5b21b6;
+    --lilac-900: #4c1d95;
+    --green-400: #34d399;
+    --green-500: #10b981;
+    --green-600: #059669;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cards Interativos */
+.card-interativo {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.card-interativo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(139, 92, 246, 0.15);
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--lilac-100);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.card-icon i {
+    width: 28px;
+    height: 28px;
+    color: var(--lilac-600);
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--lilac-600);
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card-link:hover {
+    color: var(--lilac-800);
+}
+
+/* Cards Prevenção */
+.card-prevencao {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.card-prevencao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(52, 211, 153, 0.15);
+}
+
+.card-prevencao i {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .card-interativo {
+        padding: 1.5rem;
+    }
+    
+    .card-prevencao {
+        padding: 1rem;
+    }
+}
