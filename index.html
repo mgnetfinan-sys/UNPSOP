@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthEd Connect - Educação em Saúde</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-lilac-50 font-sans">
+    <custom-navbar></custom-navbar>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-r from-lilac-500 to-lilac-600 text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Educação e Prevenção em Saúde</h1>
+                <p class="text-xl md:text-2xl mb-8">Conhecimento científico para uma vida mais saudável</p>
+                <a href="#prevencao" class="bg-green-400 hover:bg-green-500 text-lilac-900 font-semibold px-8 py-3 rounded-full transition duration-300">
+                    Começar a Prevenir
+                </a>
+            </div>
+        </section>
+
+        <!-- Cards Interativos -->
+        <section class="py-16 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center text-lilac-800 mb-12">Temas em Destaque</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="card-interativo">
+                        <div class="card-icon">
+                            <i data-feather="heart"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-lilac-800 mb-3">Síndrome do Ovário Policístico</h3>
+                        <p class="text-gray-600">Entenda os sintomas, fatores de risco e cuidados necessários para a SOP.</p>
+                        <a href="sop.html" class="card-link">Saiba mais</a>
+                    </div>
+
+                    <div class="card-interativo">
+                        <div class="card-icon">
+                            <i data-feather="shield"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-lilac-800 mb-3">Fatores de Risco</h3>
+                        <p class="text-gray-600">Identifique os principais fatores de risco para doenças crônicas.</p>
+                        <a href="fatores-risco.html" class="card-link">Saiba mais</a>
+                    </div>
+
+                    <div class="card-interativo">
+                        <div class="card-icon">
+                            <i data-feather="activity"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-lilac-800 mb-3">Diagnóstico Precoce</h3>
+                        <p class="text-gray-600">Importância do diagnóstico precoce e exames preventivos.</p>
+                        <a href="diagnostico.html" class="card-link">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Prevenção -->
+        <section id="prevencao" class="py-16 px-6 bg-white">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center text-lilac-800 mb-12">Prevenção e Cuidados</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="card-prevencao">
+                        <i data-feather="sun" class="text-green-400"></i>
+                        <h4 class="font-semibold text-lilac-700 mb-2">Alimentação Saudável</h4>
+                        <p class="text-sm text-gray-600">Dicas para uma alimentação balanceada e nutritiva.</p>
+                    </div>
+                    <div class="card-prevencao">
+                        <i data-feather="wind" class="text-green-400"></i>
+                        <h4 class="font-semibold text-lilac-700 mb-2">Exercícios Físicos</h4>
+                        <p class="text-sm text-gray-600">Importância da atividade física regular.</p>
+                    </div>
+                    <div class="card-prevencao">
+                        <i data-feather="moon" class="text-green-400"></i>
+                        <h4 class="font-semibold text-lilac-700 mb-2">Qualidade do Sono</h4>
+                        <p class="text-sm text-gray-600">Como melhorar a qualidade do seu descanso.</p>
+                    </div>
+                    <div class="card-prevencao">
+                        <i data-feather="smile" class="text-green-400"></i>
+                        <h4 class="font-semibold text-lilac-700 mb-2">Saúde Mental</h4>
+                        <p class="text-sm text-gray-600">Cuidados com o bem-estar emocional e mental.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Área Acadêmica -->
+        <section class="py-16 px-6 bg-lilac-50">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center text-lilac-800 mb-12">Conteúdo Acadêmico</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-lilac-800 mb-4">Artigos Científicos</h3>
+                        <p class="text-gray-600 mb-4">Acesse artigos e pesquisas atualizadas sobre saúde da mulher e prevenção de doenças.</p>
+                        <a href="artigos.html" class="text-green-500 hover:text-green-600 font-semibold">Explorar Artigos</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-lilac-800 mb-4">Materiais para Download</h3>
+                        <p class="text-gray-600 mb-4">Baixe PDFs, infográficos e materiais educativos gratuitos.</p>
+                        <a href="downloads.html" class="text-green-500 hover:text-green-600 font-semibold">Ver Downloads</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
