@@ -92,11 +92,12 @@ class CustomNavbar extends HTMLElement {
                 </a>
                 
                 <div class="nav-links">
-                    <a href="index.html" class="nav-link">Home</a>
-                    <a href="prevencao.html" class="nav-link">Prevenção</a>
-                    <a href="academico.html" class="nav-link">Acadêmico</a>
-                    <a href="contato.html" class="nav-link">Contato</a>
-                </div>
+    <!-- <a href="index.html" class="nav-link">Home</a>
+    <a href="prevencao.html" class="nav-link">Prevenção</a>
+    <a href="academico.html" class="nav-link">Acadêmico</a>
+    <a href="contato.html" class="nav-link">Contato</a> -->
+</div>
+
                 
                 <button class="mobile-menu-btn">
                     <i data-feather="menu"></i>
